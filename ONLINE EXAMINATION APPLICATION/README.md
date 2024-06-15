@@ -17,6 +17,7 @@ It may be used as a tool  to overcome the limitation of traditional pen and pape
  Student
  
  ADMIN MODULE:
+ SCREENSHOT OF ADMIN MODULE![Screenshot 2024-05-28 224603](https://github.com/zephyr-internships-23a/zephyr-project-23a05/assets/154730401/a4cd83e4-0c50-455d-8882-8855deb1dd65)
  Login: In this module, the admin is granted access to the system on providing a valid credential.
  
  Manage Courses: This module helps the admin in managing the courses. The admin can add new courses or delete courses that are not required for the exams.
