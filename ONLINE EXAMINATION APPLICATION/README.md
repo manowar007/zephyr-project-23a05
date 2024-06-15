@@ -17,7 +17,7 @@ It may be used as a tool  to overcome the limitation of traditional pen and pape
  Student
  
  ADMIN MODULE:
- SCREENSHOT OF ADMIN MODULE![Screenshot 2024-05-28 224603](https://github.com/zephyr-internships-23a/zephyr-project-23a05/assets/154730401/a4cd83e4-0c50-455d-8882-8855deb1dd65)
+ SCREENSHOT OF ADMIN MODULE: ![Screenshot 2024-05-28 224603](https://github.com/zephyr-internships-23a/zephyr-project-23a05/assets/154730401/a4cd83e4-0c50-455d-8882-8855deb1dd65)
  Login: In this module, the admin is granted access to the system on providing a valid credential.
  
  Manage Courses: This module helps the admin in managing the courses. The admin can add new courses or delete courses that are not required for the exams.
@@ -32,6 +32,8 @@ It may be used as a tool  to overcome the limitation of traditional pen and pape
  Read Feedback: This module allows the admin to read feedback provided by the examinee.
  
  STUDENT MODULE:
+ SCREENSHOT OF STUDENT MODULE: ![Screenshot 2024-05-28 225329](https://github.com/zephyr-internships-23a/zephyr-project-23a05/assets/154730401/5844f612-f651-4055-84d3-fd55d2be5cb3)
+
  
  Login: In this module, the student is granted access to the system on providing a valid credential.
  
@@ -58,6 +60,48 @@ It may be used as a tool  to overcome the limitation of traditional pen and pape
  -Online examination system is restricted to multiple choice question which can be inefficient in assessing a student’s topic Mastery. Exams in the form of debates, essays, case-based questions and oral exams are difficult to conduct online. 
 
  -Online examination system does not support for adding images with question so questions containing diagram can not be saved in the system. 
+
+# INSTRUCTION ON HOW TO RUN THE PROJECT LOCALLY
+
+-Clone the repository and open the folder named ONLINE EXAMINATION APPLICATION in VS CODE and save the file.
+
+-Now copy the folder from the saved path and paste it in the htdocs folder in the Xampp folder.
+
+-(To connect the Database)
+
+1.open xampp control panel and then click on start Apache and start MySql, then click on the admin button of mySQl which will direct to a brower. After that click on the new database tab in the browser window .
+
+2. Now create a new database named cee_db and then click on create button. Then click on the import tab, this will open the browse file. From the browse file click on htdocs>ONLINE EXAMINATION APPLICATION>database>cee_db.sql and then click on import/go option.
+
+-After creating and importing the database go to any browser and type localhost/ONLINE EXAMINATION APPLICATION/adminpanel/admin to check the admin dashboard
+
+to login in for admin
+
+username- admin@username
+
+password- admin@password
+
+type the URL localhost/ONLINE EXAMINATION APPLICATION to check the student module
+to login for student- You can choose any of the students credentials stored in the manage examinee module in the admin dashboard
+for eg- 
+
+username- monu@gmail.com
+
+passowrd- monu111
+
+(Important- Keep on running the apache and MySql server from the Xampp Control panel to run the application in localhost)
+
+# TECH USED FOR DESIGNING:
+
+-	Front End technology- HTML, CSS, Javascript, Bootstrap, AJAX
+  
+-	Backend Technology- PHP, MySQL
+  
+-	Database: MySQL
+  
+-	Server: Apache Server
+
+-	Software used to run the system locally- Xampp
 
 # FUTURE SCOPE:
 
